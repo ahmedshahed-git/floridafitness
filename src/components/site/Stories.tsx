@@ -84,10 +84,10 @@ export function Stories() {
                 transformStyle: "preserve-3d",
               }}
             >
-              <Column items={cols[0]} duration="34s" />
-              <Column items={cols[1]} duration="44s" />
+              <Column items={colA} duration="34s" />
+              <Column items={colB} duration="44s" />
               <div className="hidden md:block">
-                <Column items={cols[2]} duration="38s" />
+                <Column items={colC} duration="38s" />
               </div>
             </div>
             <div className="pointer-events-none absolute inset-x-0 top-0 h-1/4 bg-gradient-to-b from-background to-transparent" />
