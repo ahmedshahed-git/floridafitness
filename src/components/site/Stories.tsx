@@ -53,11 +53,9 @@ function Column({ items, duration }: { items: Review[]; duration: string }) {
 }
 
 export function Stories() {
-  const cols: Review[][] = [
-    testimonials.slice(0, 4),
-    testimonials.slice(4, 8),
-    testimonials.slice(8, 12),
-  ];
+  const colA: Review[] = testimonials.slice(0, 4);
+  const colB: Review[] = testimonials.slice(4, 8);
+  const colC: Review[] = testimonials.slice(8, 12);
 
   return (
     <section
