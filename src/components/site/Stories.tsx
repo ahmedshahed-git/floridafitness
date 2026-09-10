@@ -53,7 +53,7 @@ function Column({ items, duration }: { items: Review[]; duration: string }) {
 }
 
 export function Stories() {
-  const cols = [
+  const cols: Review[][] = [
     testimonials.slice(0, 4),
     testimonials.slice(4, 8),
     testimonials.slice(8, 12),
