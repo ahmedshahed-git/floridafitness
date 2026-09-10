@@ -8,7 +8,7 @@ import g6 from "@/assets/g6.jpg";
 export const business = {
   name: "FLORIDA FITNESS",
   goal: "Our goal is to help you reach your fitness goals.",
-  phone: "+1 352-658-8040",
+  phone: "(352) 658-8040",
   phoneHref: "tel:+13526588040",
   email: "floridafitnesstrenton@gmail.com",
   messenger: "https://www.facebook.com/messages/t/FloridaFitnessTrenton/",
