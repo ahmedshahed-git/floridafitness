@@ -38,6 +38,9 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-polaroid: var(--polaroid);
+  --color-polaroid-ink: var(--polaroid-ink);
+
   --font-display: "Anton", "Inter Tight", sans-serif;
   --font-sans: "Inter Tight", ui-sans-serif, system-ui, sans-serif;
   --animate-marquee-vertical: marquee-vertical var(--duration, 30s) linear infinite;
@@ -70,6 +73,9 @@
   --border: oklch(0.958 0.014 85 / 12%);
   --input: oklch(0.958 0.014 85 / 16%);
   --ring: oklch(0.87 0.235 128);
+  --polaroid: oklch(0.96 0.01 95);
+  --polaroid-ink: oklch(0.25 0.006 260);
+
 
   --gradient-hero: linear-gradient(
     100deg,
